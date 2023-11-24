@@ -25,10 +25,6 @@ font-size: 2rem;}
 
 
 
-section{margin-top: 20px;
-margin-bottom: 20px;
-padding-bottom: 30px;
-padding-top: 30px;}
 
 
 
@@ -67,6 +63,7 @@ background-repeat: no-repeat;
 background-size:cover;
 background-position: center;
 margin-top: 0;
+padding: 20px;
 
 }
 
@@ -94,7 +91,10 @@ margin-top: 30px;
 margin-bottom: 30px;}
 
 .section3{background-color: #f04c2f;
-color: white;}
+color: white;
+padding-bottom: 20px;
+padding-top: 20px;
+margin-top: 30px;}
 
 .blockquote{font-style: italic;
 margin-bottom: 20px;}
@@ -108,7 +108,8 @@ height: 100%;}
 
 .divimage{border: solid 1px lightgray
 ; border-radius: 10px;
-margin: 15%;}
+margin: 15%;
+padding-bottom: 20px;}
 
 
 
