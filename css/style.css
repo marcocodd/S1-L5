@@ -1,0 +1,117 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* General Settings */
+
+
+
+body{font-family: 'Open Sans', sans-serif;
+font-size: 1.2rem;
+line-height: 1.65;
+color:#393d41;
+text-align: center;}
+
+main{text-align: center;}
+
+/* Ho impostato i vari fonti di cui avevo bisogno in modo da non doverli cambiare uno ad uno 
+i vari paragrafi invece utilizzano i settings del body*/
+
+h1{font-family: 'Montserrat'; color:#25a2c3;
+font-size: 2em;}
+section{margin-top: 60px;
+margin-bottom: 60px;}
+
+
+
+h3{font-family: 'Montserrat'; color:#25a2c3;
+    line-height: 1.5;
+    font-size: 1.3em;
+margin-bottom: 20px;
+margin-top: 20px;}
+
+h2{font-family: 'Montserrat';
+    color: white;
+    font-size:  1.5em; ;
+margin-top: 20px;
+margin-bottom: 20px;}
+
+/* Header */
+
+
+#divlogo{background-color: black;
+box-sizing: border-box;
+text-align: center;
+padding: 1.5em;}
+
+
+#imglogo{ width: 200px;
+height: 60px;
+}
+
+
+/* Main */
+
+.section1{background-image: url(/images/banner.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+
+}
+
+#firstbutton{background-color:#f04c2f;
+
+font-family:'Montserrat';
+text-transform: uppercase;
+font: size 700px;
+color:white ;
+padding: 1.2em 1em ;
+border-radius: 0.5em;
+border: 0px;
+box-sizing: border-box;
+margin-bottom: 2em;
+margin-top: 1em;
+}
+
+.section2{margin-top: 50px;}
+
+.notebook{width: 50%;
+height: 50%;
+border-radius: 50%;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;}
+
+.section3{background-color: #f04c2f;
+color: white;}
+
+.blockquote{font-style: italic;
+margin-bottom: 20px;}
+.section3 p+p{font-size: 1rem;}
+
+.imagestyle{width: 100%;
+height: 100%;}
+
+
+.divimage{border: solid 1px lightgray
+; border-radius: 5px;
+margin: 30px;}
+
+
+
+/* Footer */
+
+.footerstyle{background-color:#25a2c3;
+color: #c8e7f0;}
+
+.linkstyle{ color: #c8e7f0;
+display:block;}
+
+footer p{font-size: 0.8em;}
+
+#divborder{border-top: solid 1px #c8e7f0;
+margin-left: 25%;
+margin-right: 25%;
+margin-top: 25px;
+padding-top: 20px;
+}
